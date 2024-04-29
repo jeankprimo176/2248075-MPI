@@ -181,7 +181,15 @@ La entrada de tamaño del arreglo y de los elementos del arreglo se han eliminad
 
 
 
-3.Compilación: Compilaremos el código para generar el ejecutable.
+3.Compilación: 
+
+Primero cargamos el modulo de openmpi
+
+```
+[jcportillam@guane ~]$ module load devtools/mpi/openmpi/4.1.2
+```
+
+Compilaremos el código para generar el ejecutable.
 
 ```
 [jcportillam@guane ~]$ nano binary_search_mpi_1.c
