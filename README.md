@@ -1,9 +1,10 @@
 # 2248075-MPI
 
-ej 1
+# ej 1
 
 1. Codigo en C
 
+```
 /*
  * C Program to Perform Binary Search using Recursion
  */
@@ -73,3 +74,4 @@ void binary_search(int list[], int lo, int hi, int key)
         binary_search(list, mid + 1, hi, key);
     }
 }
+```
